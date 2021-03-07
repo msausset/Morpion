@@ -1,0 +1,46 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 80px;
+    font-family: Jazz LET, fantasy;
+    color: white;
+    text-align: center;
+}
+
+.title{
+    background-color: black;
+    height: 100px;
+    margin-top: -30px;
+    align-items: center;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: monospace;
+    font-size: 36px;
+    background-color: wheat;
+}
+
+.morpion {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 50vh;
+    height: 50vh;
+    border: 5px solid black;
+    margin-top: -250px;
+}
+
+.box {
+    width: 31.19%;
+    height: 31.19%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
